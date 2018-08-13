@@ -10,5 +10,5 @@ ENV DB_PORT 5432
 ENV DB_USER_NAME user
 ENV DB_PASSWORD password
 
-CMD java -cp main.jar:lib/* demo.Main
+CMD java -jar main.jar
 
